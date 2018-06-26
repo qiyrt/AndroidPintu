@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout
+        android:background="@mipmap/grade"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_height="20pt"
+        android:layout_width="match_parent">
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_height="108dp"
+        android:layout_width="235dp"
+        android:layout_marginLeft="35pt"
+        android:layout_marginTop="30pt"
+        android:layout_marginRight="35pt"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true">
+
+    <TextView
+        android:layout_height="20pt"
+        android:layout_width="80pt"
+        android:textColor="@color/colorGray"
+        android:textSize="10pt"
+        android:text="您的成绩是"
+        android:id="@+id/textView4"/>
+
+    <TextView
+        android:layout_height="50pt"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorRed"
+        android:textSize="15pt"
+        android:text="9:30:30"
+        android:layout_marginLeft="49dp"
+        android:id="@+id/grade"
+        android:layout_marginTop="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="49dp"/>
+
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_height="60pt"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="35pt"
+        android:layout_marginTop="20pt"
+        android:layout_marginRight="35pt"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true">
+
+    <Button
+        android:background="@drawable/btn_click"
+        android:layout_height="18pt"
+        android:layout_width="50pt"
+        android:textColor="@color/colorGray"
+        android:text=" 重 玩"
+        android:id="@+id/again"
+        android:layout_marginTop="11dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/end"
+        android:layout_alignLeft="@+id/end"/>
+
+    <Button
+        android:background="@drawable/shape"
+        android:layout_height="18pt"
+        android:layout_width="50pt"
+        android:textColor="@color/colorGray"
+        android:text="退 出 游 戏"
+        android:id="@+id/end"
+        android:layout_marginTop="27dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/again"/>
+
+</RelativeLayout>
+
+</LinearLayout>
